@@ -8,6 +8,70 @@
 <script src="js/effects.js" type="text/javascript"></script>
 <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
   <script src="js/jquery-ui.js" type="text/javascript"></script>
+ <style type="text/css">
+ .optn {
+ 	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin-top:10px;
+ }
+ .itms {
+ 	float: left;
+	margin-left:30px;
+ }
+  .itms:first-child {
+  	margin-left:0;}
+.tms {
+	margin-top:20px;
+	margin-left:20px;
+	font-size:12px}
+.ult_slc {
+	width:400px;
+	height:auto;}
+.submit{
+	background:transparent;
+	border:none;
+	margin-top:10px;
+	cursor:pointer;
+	padding-top:20px;}
+.submit:hover{
+	color: #666666;
+}
+.mov {
+	background-image:url(images/arw_1.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.movall {
+	background-image:url(images/arw_2.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.rem {
+	background-image:url(images/arw_3.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.remall {
+	background-image:url(images/arw_4.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.rlr {
+	border-bottom: #CCCCCC solid 1px;
+	width:100%;
+	height:15px;
+}
+.slct {
+	width:150px;
+	height:180px;
+	padding:8px;
+}
+.sub {
+	font-weight:bold;
+	font-size:13px;
+}
+ </style>
 <title>Live the Value</title>	
 	</head>
 	<body onload="init();">
@@ -99,79 +163,100 @@
 					
 			<div class="content" >
 			<!--content-->
+
 				<div id="wrapper_mngr">
 					<div class="wrapper_full"  id="close">
 						<div class="tab_head">
-							<label class="head_caption_self_evaluation">Create Template</label>
+							<label class="head_caption_self_evaluation">Assigning Evaluation</label>
 								<div class="tab_head_arrow" onclick="javascript:hideDiv()"></div>
 								
 						</div>
 						
 							<div class="tabContainer" id="sortable">
-								<div id="vldts" class="tabscontent_det" >
-									<div class="crt_cont" style="float:left;">
-								  		<div class="cre_new crt_nw" style="border-bottom:solid 1px #dfdfdf;">
-										<input type="radio" /><label class="spacng"></label><label>Create a new Template</label><br /><br />
-											<div>
-											<div class="cnt_itm">
-											Title:<label class="spacng"></label>
-													<label class="spacng"></label>
-														<label class="spacng"></label>
-														<input type="text" />
-											</div>
-											<div class="cnt_itm">
-											Category:<label class="spacng"></label>
-											&nbsp;<select>
-											<option>Select Category</option>
-											</select>
-											</div>
-											</div>
+									<div style="margin-top:10px;">
+									<div class="optn">
+										<div class="itms">
+										<input type="radio" value="Departmnt" />&nbsp;&nbsp;Deprtment	
 										</div>
-									<div class="cre_new_existing crt_nw" style="border-bottom:solid 1px #dfdfdf;">
-										<div >
-									 <input type="radio" /><label class="spacng"></label>Copy an existing Template<br /><br />
-									 	<div>
-											<div class="cnt_itm">
-											Title:<label class="spacng"></label>
-													<label class="spacng"></label>
-														<label class="spacng"></label>
-														<input type="text" />
-											</div>
-											<div class="cnt_itm">
-											Category:<label class="spacng"></label>
-											&nbsp;<select>
-											<option>Select Category</option>
-											</select>
-											</div>
-											</div>
-										
+										<div class="itms">
+										<input type="radio" value="Departmnt" />&nbsp;&nbsp;Team
 										</div>
+										<div class="itms">
+										<input type="radio" value="Departmnt" />&nbsp;&nbsp;Individual
+										</div>
+										<div class="itms">
+										<input type="radio" value="Departmnt" />&nbsp;&nbsp;Random Group
+										</div>
+										</div>
+										<br />
+									<div class="tms">
+									<div class="ult_slc">
+										<table width="400">
+											<tr>
+											<td width="148" height="26">Available</td>
+											<td></td>
+												<td colspan="2">Selected</td>
+											</tr>
+																						<tr>
+											<td rowspan="4" width="148" height="49">
+											<select class="slct" multiple="multiple">
+												<option> Option 1 </option>
+												<option> Option 2 </option>
+												<option> Option 3 </option>
+												<option> Option 4 </option>
+											</select>
+											</td>
+											<td width="88" align="center"><input type="submit" value="Move" class="submit mov" /><br />
+											<input type="submit" value="Move All" class="submit movall" /><br />
+											<input type="submit" value="Remove"  class="submit rem" /><br />
+											<input type="submit" value="Remove All" class="submit remall" />
+											</td>
+												<td rowspan="4" width="148" colspan="2">	
+												<select class="slct" multiple="multiple">
+												<option> Select </option>
+											</select></td>
+											</tr>
+											
+									  </table>
 									</div>
-									<div class="cre_new_existing crt_nw">
-									<div >
-									 <input type="radio" /> <label class="spacng"></label>Use an expert survey template
-									</div>
+									 </div>
+									<div class="rlr"></div>
+									 <div class="tms">
+									 Start Date &nbsp;&nbsp; &nbsp; &nbsp;  <input type="text"  style="width:90px;"/>
+									 <a href="#">
+									 <img style="vertical-align:middle;" src="images/calendar-icon.png" />
+									 </a>
+									 </div>
+									 <div class="tms">
+									 End Date &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  <input type="text"  style="width:90px;"/>
+									 <a href="#">
+									 <img style="vertical-align:middle;" src="images/calendar-icon.png" />
+									 </a>
+									 </div>
+									<div class="tms">
+									 Trigger Date &nbsp; &nbsp;<input type="text"  style="width:90px;"/>
+									 <a href="#">
+									 <img style="vertical-align:middle;" src="images/calendar-icon.png" />
+									 </a>
+									 </div>
+									 <div class="rlr"></div>
+									 <div class="tms">
+											<div class="itms sub">WorkFlow</div><br /><br />
+										<div class="itms" style="margin-left:-1px;"><input type="checkbox" />&nbsp;&nbsp;Self Evaluation</div>
+											<div class="itms"><input type="checkbox" />&nbsp;&nbsp;Manager Evaluation</div>
+												<div class="itms"><input type="checkbox" />&nbsp;&nbsp;High Leval Evaluation</div><br />
+
 									</div><br />
-											<div style="margin-left:40px;">
-										 <input type="submit" value="Create Evaluation" class="cmn_btn_nr" />&nbsp;
-										 <input type="submit" value="Cancel"  class="cmn_btn_nr"/>
-										 	</div>
-								  </div>
-						
-								<div class="rht_cnt">
-									<img  src="images/slider.png"/>
-								</div>		
-									
-								 <div style="clear:both;"></div>
-							  </div>
-									
-								<!--	<next value>-->
-									
+									<div class="tms">
+										<input type="submit" value="Assign Evaluation"  class="cmn_btn" style="float:left;" /><br />
+									 </div>
+									</div>
 							</div>
 						<br />
 <br />
+						
+						
 
-							<!--Empty Div--><div style=" width:100%; height:60px;"></div> <!--End-->
 				
 							<!--Empty Div--><div style=" width:100%; height:60px;"></div> <!--End-->
 					</div>

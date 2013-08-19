@@ -7,6 +7,14 @@
 	float:left;
 	min-width:450px;
 }
+.wrapper_full{
+	width:100%;
+	margin: 29px 0 0 8px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	float:left;
+	min-width:450px;
+}
 #wrapper_mngr{
 	width:100%; 
 }
@@ -56,8 +64,14 @@
 	font-size: 12px;
 	padding-bottom: 5px;
 	padding-top: 10px;
-	
-	
+	}
+.head_caption_cmpnt{
+	background-image:url(../images/sprites.png);
+	background-position: -925px -136px;
+	padding-left: 30px;
+	font-size: 14px;
+	padding-bottom: 5px;
+	padding-top: 10px;
 	}
 .head_caption_manager_review {
 	background-image:url(../images/sprites.png);
