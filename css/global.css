@@ -535,6 +535,9 @@ table#cpmtncytwo td {
 .td_brd {
 	background-color: #f7f7f7 !important;
 	border-right:solid 1px #666666;
+
+}
+.td_tst {
 	display:none;
 }
 .blck_btn {
@@ -699,6 +702,9 @@ table#cpmtncytwo td {
 	height:20px;
 	background-repeat:no-repeat;
 	background-position:-59px -232px;
+}
+.up_dwn_arw_one_dwn:hover {
+	cursor:pointer;
 }
 .typon {
 	float:left;
