@@ -535,7 +535,7 @@ table#cpmtncytwo td {
 .td_brd {
 	background-color: #f7f7f7 !important;
 	border-right:solid 1px #666666;
-
+	display:none;
 }
 .td_tst {
 	display:none;
