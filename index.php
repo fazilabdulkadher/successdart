@@ -16,8 +16,7 @@
 	<div class="remb_me">
 	<input type="checkbox" />&nbsp;Remember me <img class="giff_ldr" src="images/ajax-loader.gif" /></div>
 	<label class="wrng_msg">Username or Password is Incorrect.</label>
-	<input type="submit" class="cmn_btn_small" value="LOGIN"/>
-	<label class="brd"></label>
+	<input type="submit" class="cmn_btn_small" value="LOGIN" onClick="window.open('comptncy.html');"/>
 	<a href="#">Forgot Password</a>
 	</form>
 </div>
@@ -28,14 +27,13 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a  class="cmn_btn_small" href="comptncy.html">Sign up </a></li>
+					<li><a  class="cmn_btn_small" >Sign up </a></li>
 						<li><a href="#">Product</a></li>
 							<li><a href="#">features</a></li>
 								<li><a href="#">projects</a></li>
 					<li><a href="#" onclick="document.getElementById('login_cont').style.display='block'" >Sign in</a></li>
 				</ul>
 			</nav>
-			
 		</div>
 	</div>
 	<footer>
