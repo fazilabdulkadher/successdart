@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sections</title>
+<link rel="stylesheet" href="css/global.css" />
+</head>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script>
+function displayResult()
+{
+document.getElementById("dply").style.display="block";
+}
+$( document ).ready(function() {
+  $( "#ms_cont" ).effect( "shake" );
+});
+</script><style>
+  #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+  </style>
+<body>
+<div style="height:100%;">
+<div id="logout_cont">
+		<div style="padding-left:20px;">
+	<div class="usr_pht">	</div>
+	<div class="username">
+	FazilAbdulakadher	</div><br />
+	<div class="usr_role">
+	Administrator	</div>
+	</div>
+	<div style="clear: both"></div>
+	<ul>
+		<li> <a href="#"> <div>Edit Account</div> </a></li>
+		<li><a href="#"><div>Manage Profile</div></a></li>
+		<li><a href="#"><div>Logout</div></a></li>
+	</ul>
+</div>
+  <div class="header header_dashbrd">
+		<div class="header_includer_dashboard">
+<!--			<div class="logo">
+			<h1>SUCCESSDART</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a  class="cmn_btn_small" href="#">Sign up </a></li>
+						<li><a href="#">Product</a></li>
+							<li><a href="#">features</a></li>
+								<li><a href="#">projects</a></li>
+					<li><a href="#" onclick="document.getElementById('login_cont').style.display='block'" >Sign in</a></li>
+				</ul>
+			</nav>-->
+<!--				<div class="optns" style="float:left; margin-left:100px; color:#8e8e8e;">
+					Notifications
+				</div>-->
+			<div class="right_bar">
+				 <div class="srch">
+					<input type="text" id="srch_txt" class="textbx" value="Search" onfocus="if(this.value == 'Search')
+					{ this.value = ''; }" onblur="if (this.value == '') { this.value='Search'; }"/>
+					<input type="submit" class="serach_btn"  value=" "   title="Search"  onclick="document.getElementById('srch_txt').style.display='block'"/>
+				 </div>
+				 <div class="user_option">
+				 <a href="#" onclick="document.getElementById('logout_cont').style.display='block'">Username<div class="arw"></div></a>	</div>
+			</div>
+		</div>
+</div>
+<!--<div class="left_menu_res">
+	<ul>
+		<li><a href="#" title="Home"><div class="hme_img_icon_res"></div></a></li>
+				<li><a href="#" title="Inbox"><div class="msg_icon_res "><label class="new" >1</label></div>
+				</a></li>
+					<li><a href="#" title="Report"><div class="rtp_icon_res "></div></a></li>
+						<li><a href="#" title="Settings"><div class="stngs_icon_res "></div></a></li>
+							<li><a href="#" title="Info"><div class="my_info_icon_res "></div></a>	</li>
+									<li><a href="#"><div class="colspmenu_res " title="Collapse Menu"></div></a>	</li>
+						<div style=" clear:both"></div>
+	</ul>
+</div>-->
+<div class="left_menu">
+	<ul>
+		<li><a href="#"><div class="hme_img_icon"></div>Home</a></li>
+				<li><a href="#"><div class="msg_icon"><label class="new" >1</label></div>
+				Inbox</a></li>
+					<li><a href="#"><div class="rtp_icon"></div>Report</a></li>
+						<li><a href="#"><div class="stngs_icon"></div>Settings</a></li>
+							<li><a href="#"><div class="my_info_icon"></div>My Info</a>	</li>
+									<li><a href="#"><div class="colspmenu" title="Collapse Menu"></div></a>	</li>
+						<div style=" clear:both"></div>
+	</ul>
+</div>	
+<div class="cont_wrpr">
+		<div class="dashbrd_navgtn" >
+		<div class="hme_img_icon_small" style="float: left;"></div>
+		<ul style="float:left;">
+			<li> <a class="#" href="#">Home</a ></li>
+			<li><a href="#">Create Template</a></li>
+		</ul><br />
+		<hr class="style-two" />
+		</div>
+<!--		<input type="submit" class="back"  value=" "/>-->
+		<div class="tale_cont" style="width:100%;">
+		  <div class="cpnt_new_templ"  >
+		  <div id="tab">
+		  	<ul>
+				<li class="active"><a href="#" ><label class="tcs">1</label>  Create Template</a><div class="arrow "></div></li>
+				<li><a href="#"><label class="tcs">2</label> Create competency</a><div class="inactive "></div></li>
+				<li><a href="#"><label class="tcs">3</label> Next Step</a><div class="inactive "></div></li>
+			</ul>
+		<!--  <ul >
+		  <li class="active actv_tab"><a href="#">1 <span>Create Template</span></a><div  class="arw_rigt"></div></li>
+		   <li ><a href="#">2 <span></span></a><div  class="arw_rigt"></div></li>
+		  </ul>-->
+		  </div>
+			<div class="crt_new_cmp">
+			  <div class="templ_left_cont">
+			<!--<h2 >Create Template</h2>-->
+					<input type="radio" /><label class="crt_new_hdng">
+					Create a new Template</label>
+			  <div class="itms ">
+			    <input name="text" type="text" class="gry_brder cpmt_nme plchlde" onfocus="if(this.value == 'Name')
+					{ this.value = ''; }" onblur="if (this.value == '') { this.value='Name'; }" value="Name" />
+			  </div>
+				<div class="itms">	
+				<textarea cols="50" rows="8" class="gry_brder tmplt" placeholder="Description" ></textarea>	
+				</div>
+				<hr class="style-two" style=" margin-top:15px;"/>
+				<div style="clear: both;"></div>
+				<input type="radio" onclick="displayResult()"  /><label class="crt_new_hdng">
+					Copy an existing Template</label>
+					
+					<div style="display:none;" id="dply">
+					<div class="itms rigt_mrgn" >
+				<div style="float:left;" class="crt_new_hdng"></div>
+				<div class="styled-select">
+				<select style="width: 309px; margin-top:10px;">
+				  <option>Select Evaluation</option>
+				  <option>The second option</option>
+				</select>
+				</div>
+				</div>
+				<div class="itms rigt_mrgn">	
+				<input type="text" class="gry_brder cpmt_nme plchlde" value="Name" onfocus="if(this.value == 'Name')
+					{ this.value = ''; }" onblur="if (this.value == '') { this.value='Name'; }" />	
+				</div>
+				<div class="itms rigt_mrgn">	
+				<textarea cols="50" rows="8" class="gry_brder tmplt" placeholder="Description" ></textarea>	
+				</div>
+				</div>
+						<hr class="style-two" style=" margin-top:15px;"/>
+			<input type="radio" /><label class="crt_new_hdng">
+					Copy an existing Template</label>
+					
+				<div class="itms">
+							<div class="cmple_act" style="margin-top:15px;">
+							<input value="cancel" class="cmn_btn_cmple btn_red " type="submit">
+							<input value="save" class=" cmn_btn_cmple btn_green" type="submit">
+							</div>
+				</div><br />
+			</div>	
+			<div  class="hr_ox"></div>
+			<div id="ms_cont" >
+			<div class="side_arw" >			</div>
+			<div id="prevw_cont" style="float:left;">
+			<div class="prew_hder">
+			Template Details</div>	
+			
+			<div class="item">
+			Total Number Of Questions
+			<span> - 5</span>
+			</div>
+			<div class="item">
+			Description<span> - Description is one of four rhetorical modes (also known as modes of discourse), along with exposition, argumentation, and narration. Each of the rhetorical modes is present in a variety of forms and each has its own purpose and conventions. The act of description may be related to that of</span></div>
+			<div class="prew_hder">
+			
+			 </div>	
+			</div>
+			
+			</div>
+			
+			<div style="clear:both;"></div>
+			</div>
+		</div>
+	</div>
+			<div style="clear:both;"></div>
+</div>
+<footer>
+	<div class="footr_lbl">
+Copyright © 2013<label class="yelw"> Ruby Software</label>
+	</div>
+</footer>
+</div>
+</body>
+</html>
