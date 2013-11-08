@@ -148,14 +148,12 @@ nav ul li a:hover {
 	font-family:lucida_granderegular !important;
 	text-transform: capitalize;
 }
-.cmn_btn_cmple:hover {
-	color:#FFFFFF!important;
-	cursor:pointer;
+.cmn_btn_cmple:hover{
+cursor:pointer;
 }
-.cmn_btn_cmple:active {
-	position: relative;
-	top:1px;
-}
+.cmn_btn_cmple:active{
+position:relative;
+top:1px;}
 .btn_green {
 	background-color:#3b9000;
 }
@@ -174,6 +172,58 @@ nav ul li a:hover {
 .btn_blue:hover {
 	background-color:#3572d5;
 }
+.nitf{
+	padding:30px 0 5px 0!important;}
+.r_try{
+	background-color:#ecac00!important;
+	border-bottom:2px #c69000 solid!important;
+	border-right:2px #c69000 solid!important;}
+.save_button{
+	background-color:#3b9000;
+	padding: 3px 15px 0px 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	border: none;
+	font-size: 12px;
+	font-family: lucida_granderegular !important;
+	text-transform: capitalize;
+	border-bottom:2px #347e00 solid;
+	border-right:2px #347e00 solid;
+	}
+.save_button:hover{
+	cursor:pointer;
+	}
+.save_button:active{
+position:relative;
+top:1px;}
+.cancl_button{
+	background-color:#fa4a4a;
+	padding: 3px 15px 0px 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	border: none;
+	font-size: 12px;
+	font-family: lucida_granderegular !important;
+	text-transform: capitalize;
+	border-bottom:2px #d13446 solid;
+	border-right:2px #d13446 solid;
+	
+	}
+.cancl_button:hover{
+	cursor:pointer;
+	}
+.cancl_button:active{
+	position:relative;
+	top:1px;}
+.alert_optn{
+width:150px;
+margin: 0 auto ;}
+.alert_optn_r_u{
+width:120px;}
 #login_cont {
 	float:right;
 	right:200px;
@@ -996,8 +1046,26 @@ table#cpmtncytwo td {
 	background-repeat:no-repeat;
 	background-position:-55px -30px;
 	cursor:pointer;
-	
 }
+.view{
+	width: 26px;
+	height: 20px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	background-position: -89px -67px;
+	border: none;
+	background-color: transparent;
+	margin-left:8px;
+}
+.view:hover {
+	width: 26px;
+	height: 20px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	background-position: -89px -87px;
+	border: none;
+	cursor:pointer;
+}	
 .back {
 	width: 114px;
 	height: 50px;
@@ -1008,10 +1076,35 @@ table#cpmtncytwo td {
 	background-color: transparent;
 	}
 .back:hover {
-s
 	cursor:pointer;
 	
 }
+.alert_box {
+	width:320px;
+	height:176px;
+	background-image:url(../images/black.png);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+	margin-right:10px;
+}
+.alert_image{
+	width:60px;
+	height:36px;
+	margin:0 auto;
+	padding-top:43px;}
+.alert_text {
+	color:#FFFFFF;
+	margin:0 auto;
+	padding-top:1px;
+}
+.save{
+	width:180px;}
+.failed{
+	width:134px;}
+	.r_u{
+	width:100px;}
 .edit {
 	width:20px;
 	height:28px;
