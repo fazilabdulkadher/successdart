@@ -16,7 +16,7 @@
 	<div class="remb_me">
 	<input type="checkbox" />&nbsp;Remember me <img class="giff_ldr" src="images/ajax-loader.gif" /></div>
 	<label class="wrng_msg">Username or Password is Incorrect.</label>
-	<input type="submit" class="cmn_btn_small" value="LOGIN" onClick="window.open('comptncy.html');"/>
+	<input type="submit" class="cmn_btn_small" value="LOGIN" onClick="window.open('Page_list.html');"/>
 	<a href="#">Forgot Password</a>
 	</form>
 </div>
