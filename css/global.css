@@ -209,6 +209,28 @@ top:1px;}
 .save_button:active{
 position:relative;
 top:1px;}
+.gry_btn{
+	background-color:#e0e2e5;
+	height:21px;
+	padding:0px 13px 0px 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	border: none;
+	font-size: 1em;
+	font-family: lucida_granderegular !important;
+	text-transform: capitalize;
+	color:#2f2f2f;
+	border:solid 1px #adb0b7;
+	}
+.gry_btn:hover{
+	cursor:pointer;
+	}
+.gry_btn:active{
+position:relative;
+top:1px;}
+
 .expl_button{
 background-color: #3b9000;
 padding: 1px 5px 4px 6px;
@@ -1321,6 +1343,9 @@ hr.style-two {
 	margin-top:10px;
 	background-image:url(../images/brder.jpg);
 }
+hr.sub {
+margin-top:2px;
+}
 hr.style-three {
     border: 0;
 	width:1px;
@@ -1614,3 +1639,50 @@ background-image: url(../images/arw_4_hvr.png);
   color: #666666;
   font-size:12px;
   padding-left:3px;}
+  
+ .arw_whit{
+ background-image:url(../images/sprites.png);
+ padding:10px;
+ background-position:-85px -1500px;}
+ .empl_details {
+width: 243px;
+background-color: #ecebeb;
+margin: 2px;
+height: 71px;
+border: solid 1px #dddcdc;
+color:#2f2f2f;
+
+ }
+ .empl_datails_photo {
+width: 81px;
+height: 71px;
+background-image: url(../images/sprites.png);
+background-position: -1px -320px;
+float:left;}
+.empl_deta {
+float:left;
+padding-left:15px;
+line-height:23px;
+}
+.status_det {
+background-image:url(../images/no data.png);
+background-repeat:no-repeat;}
+.status_det_cont {
+width:100%;
+height:auto;
+clear:both;
+}
+.status_left {
+float:left;
+padding:5px 8px 4px 8px;
+text-transform:capitalize;}
+.status_right {
+float:right;
+padding:5px 8px 4px 8px;}
+.status_hdng {
+font-weight:bold;
+font-size:.9em;
+text-transform:uppercase;
+padding:8px;
+}
+

@@ -1425,8 +1425,121 @@ float:right;}
 .sub_sectn {
 background-color:#4e4e50;
 clear:both;
-width:840px;
+width:830px;
 margin-left:25px;
-padding:5px;
+padding:8px 10px 5px 10px;
 margin-top:5px;
-color:#FFFFFF;}
+color:#FFFFFF;
+}
+.sub_sctn_nme {
+font-size:.9em;
+margin-left:5px;
+width:100px;
+max-width:100px;
+word-break:break-all;}
+.sctn_dscrpn {
+margin-left:35px;}
+.rgt_optn{
+float:right;}
+.sctn_minmz{
+ background-image:url(../images/sprites.png);
+ padding:10px;
+ background-position:-78px -1515px;
+ margin-left:5px;
+}
+.cmtncy_minmz{
+ background-image:url(../images/sprites.png);
+ padding:10px;
+ background-position:-81px -1536px;
+ margin-left:5px;
+}
+.cmtncy_minmz:hover{
+background-image:url(../images/sprites.png);
+ padding:10px;
+ background-position:-81px -1557px;}
+ .cmtncy_maxmz{
+ background-image:url(../images/sprites.png);
+ padding:10px;
+ background-position:-81px -1576px;
+ margin-left:5px;
+}
+.cmtncy_maxmz:hover{
+background-image:url(../images/sprites.png);
+ padding:10px;
+ background-position:-81px -1596px;}
+.cpmnc {
+background-color:#f2f2f2;
+padding:10px 5px 0 0;}
+.cpmnc_actv {
+background-color: #ddf7f3;}
+.cpmnc_actv_cmnt {
+
+}
+.cpmnc_rw{
+width:100%;
+color:#2f2f2f;
+font-size:.9em;}
+ .cpmnc_rw_arw{
+ margin-top:-5px;
+ }
+ .compname{
+ margin-left:10px;
+ width:100px;
+ max-width:100px;
+word-break:break-all;}
+.cmpncy_txtare{
+height:8px;
+overflow:hidden;
+width:200px;
+max-width:200px;}
+.cmpncy_txtare_expn{
+height:8px;
+overflow:hidden;
+width:500px;
+max-width:500px;
+margin-left:12px;}
+.cmpncy_actv_dv{
+padding-left:157px;
+padding-bottom:8px;}
+.cmpncy_actv_dv_opn{
+margin-top:10px;}
+.cmpncy_txtare_actv{
+height:8px;
+overflow:hidden;
+width:407px;
+max-width:407px;
+height:42px;
+margin-top:5px;}
+.scn_rt{
+margin-right:10px;}
+.cmnt_rt{
+margin-right:5px;}
+.cpmnc_pdng{
+margin-left:20px;}
+.max {
+	background-image: url(../images/sprites.png);
+	width: 23px;
+	height:19px;
+	float: right;
+	background-position:-83px -782px;
+}
+.max:hover {
+	background-image: url(../images/sprites.png);
+	background-position:-83px -801px;
+	cursor:pointer;
+}
+.pdng {
+margin-right:5px;}
+
+.tab_head_arrow {
+	background-image: url(../images/sprites.png);
+	width: 16px;
+	height: 16px;
+	float: right;
+	background-position: -558px -165px;
+}
+.tab_head_arrow:hover {
+	background-image: url(../images/sprites.png);
+	background-position: -574px -165px;
+	cursor:pointer;
+}
