@@ -103,10 +103,11 @@ $( document ).ready(function() {
   						<div class="tale_cont" style="width:100%;">
 		  <div id="tab_anser">
 		  	<ul>
-				<li class="active brdr_btm" ><a href="#" ><label class="tcsa"></label>Self Evaluation</a><div class="answer_inactive" ></div>
+				<li class="active brdr_btm" ><a href="#" ><label class="tcsa"></label>Self Evaluation</a><div class="answer_active typon" ></div>
+				</li>
+				<li><a href="#"><label class="tcsb"></label>  Manager Evaluation</a><div class="answer_inactive typon "></div>
 				<div class="org_bdr"></div>
 				</li>
-				<li><a href="#"><label class="tcsb"></label>  Manager Evaluation</a><div class="answer_active typon "></div></li>
 				<li><a href="#"><label class="tcsb_accept"></label>  Accept Evaluation <label class="new_notifi">New</label>
 				<label class="new_notifi due_notifi">Due</label></a><div class="answer_active typon "></div></li>
 			</ul>
@@ -118,7 +119,14 @@ $( document ).ready(function() {
 		  <div class="clear"></div>
 		  <div>
 			<div class="crt_new_cmp anser_part">
-			  <div class="templ_left_cont">
+				<div id="emplye">
+					<ul>
+						<li><a href="#">Fazil Abdulkhadar</a></li>
+						<li><a href="#">Employee Two</a></li>
+						<li><a href="#">Employee Three</a></li>
+					</ul>
+				</div>
+			  <div class="templ_left_cont ">
 			<!--<h2 >Create Template</h2>-->
 										
 					<div style="display:none;" id="dply">
@@ -140,7 +148,7 @@ $( document ).ready(function() {
 				</div>
 				</div>
 					
-						<div class="sectn_name">
+						<div class="sectn_name margn_adj">
 							<div class="sctn_item ">
 							<a class="arws_expnd" href="#"></a>							</div>
 							<div class="sctn_item ">
@@ -230,8 +238,18 @@ $( document ).ready(function() {
 							<div class="cmnt_img" >
 							<img src="images/icon.png" title="Fazil Abdulkhadar" />
 							</div>
+							<div class="cmnt_arw_act cmnt_arw_inct"></div>
+							<textarea rows="4" class="gry_brder txt_compntcy_inactv" placeholder="Employee Comment"></textarea><br />
+							<!--	<div class="cmpncy_actv_dv_opn">
+							
+								</div>-->
+							</div>
+							<div class="cmpncy_actv_dv">
+							<div class="cmnt_img" >
+							<img src="images/icontwo.png" title="Fazil Abdulkhadar" />
+							</div>
 							<div class="cmnt_arw_act"></div>
-							<textarea rows="4" class="gry_brder txt_compntcy" placeholder="Comment"></textarea><br />
+							<textarea rows="4" class="gry_brder txt_compntcy" placeholder="Manager Comment"></textarea><br />
 								<div class="cmpncy_actv_dv_opn">
 							<input type="submit" value="Cancel" class="gry_btn pdng">
 							<input type="submit" value="Save" class="gry_btn">
