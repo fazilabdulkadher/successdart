@@ -1779,9 +1779,14 @@ color:#00669c;}
 .slider_capn_tr{
 color:#4f81ab;}
 .slider_capn_fv{
+font-family:Arial, Helvetica, sans-serif;
 color: #666666;
-font-size:.9em;
-line-height:35px;}
+font-size:1.1em;
+text-transform: uppercase;
+line-height:25px;
+text-shadow: none;
+margin-top:-10px;
+font-weight:bold;}
 .slider_frt_h1{
 font-size:1em;
 color:#333333;
