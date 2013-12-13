@@ -1716,7 +1716,7 @@ padding:8px;
 .cont_are{
 width:960px;
 margin:0 auto;
-padding:50px 10px 10px 10px;}
+padding:36px 10px 10px 10px;}
 .clm_lft_cont{
 float:left;
 width:470px;
@@ -1726,7 +1726,6 @@ height:311px;
 float: left;
 width:440px;
 margin-left:45px;
-text-transform:capitalize;
 height:311px;
 padding:0;}
 
@@ -1786,7 +1785,7 @@ font-size:.8em;
 text-transform: uppercase;
 line-height:25px;
 text-shadow: none;
-margin-top:70px;}
+margin-top:80px;}
 .slider_capn_sx{
 color:#729ad5;}
 .slider_frt_h1{
