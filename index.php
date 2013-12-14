@@ -113,8 +113,8 @@
 	</div>	
 	<div style="width:100%; background-color: #eaeaea; border-bottom: solid 1px #D3D3D3;  border-top: solid 1px  #D3D3D3;padding:20px 0 35px 0;">
 	<div style="width:960px; height:auto; margin:0 auto; text-align:center; font-size:1em; font-weight:bold;">	
-	<h2>Download Product Presentation Slides </h2>
-	<a href="SucessDartProductOverview Ver1.0.pdf" class="cmn_btn_small" target="_blank" >DOWNLOAD PDF </a>
+	<h2>Product Presentation Slides </h2>
+	<a href="SucessDartProductOverview Ver1.0.pdf" class="cmn_btn_small" target="_blank" >DOWNLOAD </a>
 	</div>
 	</div>
 	<div class="cont_are prnt">
@@ -123,12 +123,12 @@
 				</p>
 		<p>
 			It does not matter whether you are a Private company, a Government institution or a Non Profit Organization – SuccessDart can definitely 								            help you to increase the performance level of your employees.
-            An organization may be loosely understood as the planned, coordinated and purposeful action of human beings working through            collective action to reach a common goal or construct a tangible product. The Organization would have a long term objective	.	</p>
+            Any organization may be more loosely understood as the planned, coordinated and purposeful action of human beings working through            collective action to reach a common goal or construct a tangible product. The Organization would have a long term objective...		</p>
 			<a class="cmn_btn_small" href="successdart_success.html">MORE</a>		</div>
 		<div class="clm_rht_cont">
 				<h2>Our Story</h2>
 		<p>
-			SuccessDart was born as a by product of our own need to create a unique and efficient employee appraisal and goal setting process and an underlying tool to support it. Like many organizations, we ( <a href="http://www.ruby-software.com/" target="_blank"> Ruby Software </a>  ) realized the importance of aligning the individual employee's goals with the organization’s goals and values. We started with the usual practice of using the .xls file and then quickly realized the inefficiencies, the next option was to contact the HRIS vendor to extend.</p>
+			SuccessDart is born as a bye product of our own need to create a unique and efficient employee appraisal and goal setting process and an underlying tool to support it. Like many organizations, we ( <a href="http://www.ruby-software.com/" target="_blank"> Ruby Software </a>  ) realized the importance of aligning organization’s goals and values with individual employees  own goals. We started with the usual practice of using the .xls file and then quickly realized the inefficiencies, the next option was to contact the HRIS vendor...</p>
 		
 		<a class="cmn_btn_small" href="our_story.html">MORE</a>		</div>
 		<div style="clear:both;"></div>
@@ -139,7 +139,7 @@
 			<iframe width="479" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=RevenueMed+-+Healthcare+BPO+Services,+Norcross,+GA,+United+States&amp;aq=3&amp;oq=reveuemed+&amp;sll=8.52922,76.925865&amp;sspn=0.103216,0.169086&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.966094,-84.254729&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=RevenueMed+-+Healthcare+BPO+Services,+Norcross,+GA,+United+States&amp;aq=3&amp;oq=reveuemed+&amp;sll=8.52922,76.925865&amp;sspn=0.103216,0.169086&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.966094,-84.254729&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>		</div>
 		<div class="clm_rht_cont">
 		<h2>Contact Our Team</h2>
-		<p>Ruby Software Resources are headquarterd in Norcross, a northern suburb of Atlanta. This location is home to our executive team.</p> 
+		<p>Ruby Software Resources are headquarters is in Norcross, a northern suburb of Atlanta. This location is home to our executive team.</p> 
 		<p style="float:left;font-size:1em;font-family:Arial, Helvetica, sans-serif;">
 		<a href="#">US</a><br /><br />
 		Ruby Software Resources <br />
