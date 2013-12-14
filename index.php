@@ -128,7 +128,7 @@
 		<div class="clm_rht_cont">
 				<h2>Our Story</h2>
 		<p>
-			SuccessDart is born as a bye product of our own need to create a unique and efficient employee appraisal and goal setting process and an underlying tool to support it. Like many organizations, we ( <a href="http://www.ruby-software.com/" target="_blank"> Ruby Software </a>  ) realized the importance of aligning organization’s goals and values with individual employees  own goals. We started with the usual practice of using the .xls file and then quickly realized the inefficiencies, the next option was to contact the HRIS vendor...</p>
+			SuccessDart is born as a by product of our own need to create a unique and efficient employee appraisal and goal setting process and an underlying tool to support it. Like many organizations, we ( <a href="http://www.ruby-software.com/" target="_blank"> Ruby Software </a>  ) realized the importance of aligning organization’s goals and values with individual employees  own goals. We started with the usual practice of using the .xls file and then quickly realized the inefficiencies, the next option was to contact the HRIS vendor...</p>
 		
 		<a class="cmn_btn_small" href="our_story.html">MORE</a>		</div>
 		<div style="clear:both;"></div>
