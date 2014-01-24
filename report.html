@@ -17,6 +17,7 @@ $( document ).ready(function() {
 });
 </script>
 <body>
+
 <div style="height:100%;">
 <div id="logout_cont">
 		<div style="padding-left:20px;">
@@ -94,6 +95,44 @@ $( document ).ready(function() {
 		</ul><br />
 		<hr class="style-two" />
 		</div>
+        <div id="light" class="white_content">
+		<div class="clsimg" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+		</div>		<div class="rpt_tble">
+						<div class=" rpt_icn_2"></div>
+						<div class="pop_title">Self Evaluation</div>
+						</div>
+		<div style="clear:both;"></div>
+
+		<table class="popup_tble">
+	<tbody>
+		<tr>
+			<th>sss</th>
+			<th>aaa</th>
+			<th>aaaa</th>
+			<th>aaaa</th>
+			<th>aaaa</th>
+		</tr>
+		<tr>
+			<td>aaaa</td>
+			<td>aaaaa</td>
+			<td>aaaa</td>
+			<td>aaa</td>
+			<td>aaa</td>
+		</tr>
+		<tr>
+			<td>sss</td>
+			<td>ssss</td>
+			<td>ssssssssss</td>
+			<td>ssss</td>
+			<td>ssssssssssss</td>
+		</tr>
+	</tbody>
+</table> <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+<div style="float:right;">
+<input value="OK" class=" cmn_btn_cmple btn_green" type="submit">
+</div></a>
+</div>
+        <div id="fade" class="black_overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></div>
 <!--		<input type="submit" class="back"  value=" "/>-->
 		<div class="tale_cont" style="width:100%;">
 		  <div class="cpnt_new_templ"  >
@@ -133,16 +172,12 @@ $( document ).ready(function() {
 									<input type="text" class="clndr_text"  value="Start Date" onfocus="if(this.value == 'Start Date')
 	{ this.value = ''; }" onblur="if (this.value == '') { this.value='Start Date'; }"/>
 									 <a href="#">
-									 <img style="vertical-align: top;" src="images/calendar-icon.png" />
-									 </a>
-							  </div>
+									 <img style="vertical-align: top;" src="images/calendar-icon.png" />									 </a>							  </div>
 								<div class="clnd">
 								  <input name="text" type="text" class="clndr_text" onfocus="if(this.value == 'End Date')
 	{ this.value = ''; }" onblur="if (this.value == '') { this.value='End Date'; }"  value="End Date"/>
 								  <a href="#">
-							    <img style="vertical-align: top;" src="images/calendar-icon.png" />
-							    </a>								</div>
-								
+							    <img style="vertical-align: top;" src="images/calendar-icon.png" />							    </a>								</div>
 				</div>
 								<div style="clear:both;"></div>
 								<div class="itms">
@@ -153,9 +188,7 @@ $( document ).ready(function() {
 							</div>		
 							<hr class="style-two" style=" margin-top:15px;">
 							<div class="chart_div">
-							<img src="images/ww3.png" />
-							
-							</div>
+							<img src="images/ww3.png" />							</div>
 							<div class="rpt_tble">
 						<div class=" rpt_icn_2"></div>
 						<div class="rpt_title">LTV (01/101/2012-01/12/2013)</div>
@@ -174,52 +207,46 @@ $( document ).ready(function() {
 				<tr>
 				<th>
 				<label>Name</label>
-				<a class="arws_expnd" href="#"></a>
-				</th>
+				<a class="arws_expnd" href="#"></a>				</th>
 				<th>
 					<label>Effort</label>
-				<a class="arws_expnd" href="#"></a>
-				</th>
+				<a class="arws_expnd" href="#"></a>				</th>
 				<th>
 					<label>Work Culture</label>
-				<a class="arws_expnd" href="#"></a>
-				</th>
+				<a class="arws_expnd" href="#"></a>				</th>
 				<th>
 					<label>Customer</label>
-				<a class="arws_expnd" href="#"></a>
-				</th>
+				<a class="arws_expnd" href="#"></a>				</th>
 				<th>
 					<label>Quality</label>
-				<a class="arws_expnd" href="#"></a>
-				</th>
+				<a class="arws_expnd" href="#"></a>				</th>
 				<th>
 					<label>Woek Life Balance</label>
-				<a class="arws_expnd" href="#"></a>
-				</th>
+				<a class="arws_expnd" href="#"></a>				</th>
 				</tr>
 				<tr>
-				<td>Joyce John</td>
+				<td onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><div class="active_popup" style="">Joyce John</div></td>
+				<td >2</td>
+				<td>3</td>
+				<td>2</td>
+				<td>1</td>
+				<td>5</td>
+				</tr><tr>
+				<td onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Sursh Vasudev</td>
 				<td>2</td>
 				<td>3</td>
 				<td>2</td>
 				<td>1</td>
 				<td>5</td>
 				</tr><tr>
-				<td>Sursh Vasudev</td>
+				<td onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Shaji Esow</td>
 				<td>2</td>
 				<td>3</td>
 				<td>2</td>
 				<td>1</td>
 				<td>5</td>
 				</tr><tr>
-				<td>Shaji Esow</td>
-				<td>2</td>
-				<td>3</td>
-				<td>2</td>
-				<td>1</td>
-				<td>5</td>
-				</tr><tr>
-				<td>Fazil Abdulkhadar</td>
+				<td onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Fazil Abdulkhadar</td>
 				<td>2</td>
 				<td>3</td>
 				<td>2</td>

@@ -1351,7 +1351,8 @@ padding: 0 5px 0 5px;}
 .brdr_btm {
 border-bottom:#FF6600;}
 .status_br {
-	float: right; width:250px;
+	float: left; 
+	width:250px;
 	border: solid 1px #dddcdc;
 	margin-left:10px;
 	margin-right:10px;
@@ -1680,6 +1681,13 @@ font-size:1.1em;
 color:#404040;
 padding:3px 0 0 14px;
 float:left;}
+.pop_title{
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:.8em;
+color:#404040;
+padding:3px 0 0 14px;
+float:left;}
 .expt{
 float: right;
 font-weight:bold;
@@ -1736,6 +1744,33 @@ vertical-align:top;
 } 
 table.export td{
 font-size:1.1em;
+padding-right:35px;
+border-bottom:solid 1px #cbcbcb;
+}
+
+
+table.popup_tble{
+width:100%;
+border-collapse:collapse;
+margin-bottom:15px;
+} 
+table.popup_tble tr{}
+table.popup_tble tr:hover{
+background-color:#e6e5e5;}
+table.popup_tble th{
+border-top:solid 1px #cbcbcb;
+border-bottom:solid 1px #cbcbcb;
+text-transform:capitalize;
+text-align:left;
+font-size:.8em;
+color:##404040;
+padding-right:35px;
+vertical-align:top;
+padding-left:2px;
+} 
+table.popup_tble td{
+font-size:.8em;
+padding-left:2px;
 padding-right:35px;
 border-bottom:solid 1px #cbcbcb;
 }
