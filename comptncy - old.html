@@ -67,25 +67,21 @@
 		<div class="hme_img_icon_small" style="float: left;"></div>
 		<ul style="float:left;">
 			<li> <a class="#" href="#">Home</a ></li>
-			<li><a href="#">Manage Evaluation Template</a></li>
+			<li><a href="#">Probation Completion Evaluation</a></li>
 		</ul><br />
 		<hr class="style-two" />
 		</div>
 		<div style="clear:both;"></div>
 		<div class="tale_cont">
-				<ul class="tab">
-				<li class="tab_actv"><a href="#">Master Templates </a></li>
-					<li><a href="#">Partially Completed Evaluations</a></li>
-						<li><a href="#">Partially Assigned Evaluations</a></li>
-							<li><a href="#">Assigned Evaluations</a></li>
-				</ul>
-			
+			<div class="tab_hdr" style="float: left;" >
+			Probation Completion Evaluation<div class="up_dwn_arw typtw"></div>
+			</div>	
 			<div style="float: right;">
-			  <input name="submit2" type="submit" class="cmn_btn_small" onclick="window.open('new_comptncy.html');"  value="+ EVALUATION"  />
+			  <input name="submit2" type="submit" class="cmn_btn_small" onclick="window.open('new_comptncy.html');"  value="+ ADD SECTION"  />
 			</div>
 	</div>
 			<div style="clear:both;"></div>
-			<div  class="cont_row">
+			<div style="border:solid 1px #dddddd;">
 			<table id="cpmtncy">
 	<tbody>
 		<tr>
@@ -101,41 +97,75 @@
 		</tr>
 		<tr>
 			<td><input type="checkbox" /></td>
-			<td><div style="width:172px;"><input type="submit" class="blck_btn" value="Technical Skill" /></div></td>
+			<td><div style="width:172px;"><div class="up_dwn_arw_one typon "></div><input type="submit" class="blck_btn" value="Technical Skill" /></div></td>
 			<td>Section Description some text.Competencies Description  some Text...</td>
 			<td><label class="clnder">1-Feb</label></td>
 			<td><input type="submit" value="  " class="edit"  title="Edit"/></td>
 			<td><input type="submit" value="  " class="delete"  title="Delete"/>
-			<input type="submit" value=" " class="view"  title="View"/> <input value="Assign Evaluation" class=" cmn_btn_cmple btn_green" type="submit"></td>
+			<input type="submit" value="  " class="view"  title="View"/></td>
 			
 		</tr>
 				<tr>
 			<td><input type="checkbox" /></td>
-			<td><input type="submit" class="blck_btn" value=" Soft Skill" /></td>
+			<td><div class="up_dwn_arw_one_dwn typon " onclick="document.getElementById('dislp').style.display='block'"></div><input type="submit" class="blck_btn" value=" Soft Skill" /></td>
 			<td>Section Description some text.Competencies Description  some Text...</td>
 			<td><label class="clnder">1-Feb</label></td>
 			<td><input type="submit" value="  " class="edit"  title="Edit"/></td>
 			<td><input type="submit" value="  " class="delete"  title="Delete"/> 
-			<input type="submit" value="  " class="view"  title="View"/><input value="Assign Evaluation" class=" cmn_btn_cmple btn_green" type="submit"></td>
+			<input type="submit" value="  " class="view"  title="View"/></td>
 		</tr>
-			
+			<tr>
+		<td class="td_brd" ></td>
+		<td colspan="5" class="td_brd">
+		<table  width="78%"  id="cpmtncytwo">
+		
+		<tr>
+		<th colspan="6" align="left">
+		<input type="submit" class="add_btn" value="Add Competency" onclick="window.open('new_comptncy.html');"/>		</th>
+		</tr>
+		<tr>
+		<th width="5%"align="left" ><input type="checkbox" /></th>
+		<th width="16%" align="left">Competency Name</th>
+		<th width="44%" align="left"> Competency Name</th>
+		<th width="10%" align="left"> LastUpdate</th>
+		<th width="5%"></th>
+		<th width="20%"></th>
+		</tr>
+			<tr>
+			<td><input type="checkbox" /></td>
+			<td><input name="submit" type="submit" class="blck_btn_small" value="Customer focus" /></td>
+			<td>Section Description some text.Competencies Description  some Text...</td>
+			<td><label class="clnder">1-Feb</label></td>
+			<td><input type="submit" value="  " class="edit"  title="Edit"/></td>
+			<td><input type="submit" value="  " class="delete"  title="Delete"/></td>
+			</tr>
+			<tr>
+			<td><input type="checkbox" /></td>
+			<td><input name="submit" type="submit" class="blck_btn_small" value="Customer focus" /></td>
+			<td>Section Description some text.Competencies Description  some Text...</td>
+			<td><label class="clnder">1-Feb</label></td>
+			<td><input type="submit" value="  " class="edit"  title="Edit"/></td>
+			<td><input type="submit" value="  " class="delete"  title="Delete"/></td>
+			</tr>
+		</table>		</td>
+		</tr>
 		<tr>
 			<td><input type="checkbox" /></td>
-			<td>
+			<td><div class="up_dwn_arw_one typon "></div>
 		    <input name="submit" type="submit" class="blck_btn " value="Feedback Request" /></td>
 			<td>Section Description some text.Competencies Description  some Text...</td>
 			<td><label class="clnder">1-Feb</label></td>
 			<td><input type="submit" value="  " class="edit"  title="Edit"/></td>
 			<td><input type="submit" value="  " class="delete"  title="Delete"/>
-			<input type="submit" value="  " class="view"  title="View"/><input value="Assign Evaluation" class=" cmn_btn_cmple btn_green" type="submit"></td>
+			<input type="submit" value="  " class="view"  title="View"/></td>
 		</tr>		<tr>
 			<td><input type="checkbox" /></td>
-			<td><input type="submit" class="blck_btn" value="Final comments" /></td>
+			<td><div class="up_dwn_arw_one typon "></div><input type="submit" class="blck_btn" value="Final comments" /></td>
 			<td>Section Description some text.Competencies Description  some Text...</td>
 			<td><label class="clnder">1-Feb</label></td>
 			<td><input type="submit" value="  " class="edit"  title="Edit"/></td>
 			<td><input type="submit" value="  " class="delete"  title="Delete"/>
-			<input type="submit" value="  " class="view"  title="View"/><input value="Assign Evaluation" class=" cmn_btn_cmple btn_green" type="submit"></td>
+			<input type="submit" value="  " class="view"  title="View"/></td>
 		</tr>
 	</tbody>
 			</table>

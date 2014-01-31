@@ -63,7 +63,7 @@ textarea {
 		color:#666666;
 }
 a {
-	color:#8e8e8e;
+	color:#4e4d4e;
 	text-decoration:none;
 }
 a:hover {
@@ -901,6 +901,7 @@ footer {
 	float:left;
 	padding-left:15px;
 	padding-top:8px;
+	width:96px;
 }
 .usr_role {
 	float:left;
@@ -1169,7 +1170,7 @@ table#cpmtncytwo td {
 .view{
 	width: 26px;
 	height: 20px;
-	background-image: url(../images/sprites.png);
+	background-image: url(../images/view.png);
 	background-repeat: no-repeat;
 	background-position: -89px -67px;
 	border: none;
@@ -1838,7 +1839,35 @@ text-align:justify;}
 	position: relative;
 	padding-left:10px;
 	border:solid 2px #3b9000;}
-@media only screen and (max-width : 1357px) {
-.cpnt_new_templ {
-min-width:1210px;}
+ul.tab {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;}
+ul.tab li {
+	margin:0;
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	font-weight: bold;
+	color: #4e4d4e;
+	padding: 10px 50px 10px 20px;
+	float:left;
+	background-color:#eaeaea;
+	border-left:solid 1px #FFFFFF;}
+ul.tab li:hover{
+	margin-top:-1px;
+	position: relative;
+	border-bottom:solid 1px #FFFFFF;}
+ul.tab li a {
+	color:#666666;
 }
+ul.tab li a:hover{
+	color: #000000;}
+.tab_actv {
+	background-color:#FFFFFF!important;
+	color: #000000!important;}
+
+.cont_row{
+background-color:#FFFFFF;
+padding:10px;}
