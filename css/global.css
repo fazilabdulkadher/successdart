@@ -901,7 +901,7 @@ footer {
 	float:left;
 	padding-left:15px;
 	padding-top:8px;
-	width:96px;
+	width: auto;
 }
 .usr_role {
 	float:left;
