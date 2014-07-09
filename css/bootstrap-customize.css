@@ -1,0 +1,101 @@
+/* boostrap customize.css Document */
+body,html,.row-offcanvas {
+  height:100%;
+  background: #eaeaea;
+}
+body {
+  padding-top: 50px;
+}
+.navbar-inverse{
+	background-color:#1a2229;
+	border:none;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+	background-color:#f77000!important;
+	color:#FFFFFF!important;
+	border-radius:0!important;}
+.nav-pills>li>a{
+	color: #a8acb1!important;
+	border-radius:0;}
+.nav-pills>li>a:hover{
+	color: #a8acb1!important
+	border-radius:0;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color:#232a2f!important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background-color:#1a2229;}
+.nav-stacked>li+li{
+	margin-top:0;}
+.btn-primary{
+	padding: 3px 10px 3px 10px;
+	background-color: #F76700;
+	background-image: -webkit-linear-gradient(#F76700,#FA3219);
+	background-image: linear-gradient(#F76700,#FA3219);
+	border-color: #C53421;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	box-shadow: none;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:none;}
+.btn-primary:hover{
+	background-color:#E46801;}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color:#E46801;
+	border-color: transparent!important;
+	border:none!important;}
+.dropdown-menu .divider{
+	margin: 3px 0;
+}
+.dropdown-menu{
+	font-size:12px;}
+.navbar-nav>li>.dropdown-menu {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+ 	margin-right: 10px;}
+.dropdown-menu>li>a:hover{
+	background-color: #F0F0F0;}
+.img-responsive-custom{
+	width: 100% \9;
+	max-width: 100%;
+	height: auto;
+}
+h6{
+	font-size:.89em;}
+.well{
+	background-color:#fff;}
+.nav>li>a {
+	padding: 8px 15px;
+}.dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  right: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+}

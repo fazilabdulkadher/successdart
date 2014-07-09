@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Dashboard</title>
+<link rel="stylesheet" href="css/global.css" />
+</head>
+<body>
+<div style="height:100%;">
+<div id="logout_cont">
+		<div style="padding-left:20px;">
+	<div class="usr_pht">
+	
+	</div>
+	<div class="username">
+	FazilAbdulakadher
+	</div><br />
+	<div class="usr_role">
+	Administrator
+	</div>
+	</div>
+	<div style="clear: both"></div>
+	<ul>
+		<li><a href="#"><div>Edit Account</div></a></li>
+		<li><a href="#"><div>Manage Profile</div></a></li>
+		<li><a href="#"><div>Logout</div></a></li>
+	</ul>
+</div>
+  <div class="header header_dashbrd">
+		<div class="header_includer_dashboard">
+<!--			<div class="logo">
+			<h1>SUCCESSDART</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a  class="cmn_btn_small" href="#">Sign up </a></li>
+						<li><a href="#">Product</a></li>
+							<li><a href="#">features</a></li>
+								<li><a href="#">projects</a></li>
+					<li><a href="#" onclick="document.getElementById('login_cont').style.display='block'" >Sign in</a></li>
+				</ul>
+			</nav>-->
+			<div class="right_bar">
+				 <div class="srch">
+					<input type="text" id="srch_txt" class="textbx" value="Search" onfocus="if(this.value == 'Search')
+					{ this.value = ''; }" onblur="if (this.value == '') { this.value='Search'; }"/>
+					<input type="submit" class="serach_btn"  value=" "   title="Search"  onclick="document.getElementById('srch_txt').style.display='block'"/>
+				 </div>
+				 <div class="user_option">
+				 <a href="#" onclick="document.getElementById('logout_cont').style.display='block'">Username<div class="arw"></div></a>
+				 </div>
+			</div>
+		</div>
+</div>
+<div class="left_menu">
+	<ul>
+		<li><a href="#"><div class="hme_img_icon"></div>Home</a></li>
+				<li><a href="#"><div class="msg_icon"><label class="new" >1</label></div>
+				Inbox</a></li>
+					<li><a href="#"><div class="rtp_icon"></div>Report</a></li>
+						<li><a href="#"><div class="stngs_icon"></div>Settings</a></li>
+							<li><a href="#"><div class="my_info_icon"></div>My Info</a>
+
+							</li>
+
+						<div style=" clear:both"></div>
+	</ul>
+</div>	
+		<div class="cont_wrpr">
+<div class="alert_box">
+	<div class="alert_image">
+	<img src="images/success_green.png"/>
+	</div>
+	<div class="alert_text save">
+	<h2>Save Option Complete</h2>
+	</div>
+	<div class="alert_optn">
+	<input type="submit" value="Cancel" class="cancl_button" />
+	<input type="submit" value="Save"  class="save_button"/>
+	</div>
+</div>
+<div class="alert_box">
+	<div class="alert_image">
+	<img src="images/erng.png"/>
+	</div>
+	<div class="alert_text failed">
+	<h2>Operation Failed</h2>
+	</div>
+	<div class="alert_optn">
+	<input type="submit" value="Cancel" class="cancl_button" />
+	<input type="submit" value="Retry"  class="save_button r_try"/>
+	</div>
+</div>
+<div class="alert_box">
+	<div class="alert_image nitf">
+	<img src="images/alert.png"/>
+	</div>
+	<div class="alert_text failed">
+	<h2>Operation Failed</h2>
+	</div>
+	<div class="alert_optn">
+	<input type="submit" value="Cancel" class="cancl_button" />
+	<input type="submit" value="Retry"  class="save_button r_try"/>
+	</div>
+</div>
+<div class="alert_box" style="margin-top:10px;">
+	<div class="alert_image nitf">
+	<img src="images/confirm.png"/>
+	</div>
+	<div class="alert_text r_u">
+	<h2>Are You Sure</h2>
+	</div>
+	<div class="alert_optn alert_optn_r_u">
+	<input type="submit" value="No" class="cancl_button" />
+	<input type="submit" value="YES"  class="save_button"/>
+	</div>
+</div>
+
+		</div>
+	<footer>
+		<div class="footr_lbl">
+		Copyright © 2013<label class="yelw"> Ruby Software</label>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
