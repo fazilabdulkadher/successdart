@@ -38,7 +38,7 @@
 .h-margin-bottom{
 	margin-bottom:4px!important;}
 .user-cont{
-	display: table-cell;
+	/*display: table-cell;*/
 	vertical-align: middle;
 	text-align: center;
 	background-color: #384048;
