@@ -62,8 +62,8 @@
 		<div class="clearfix"></div>
 		<ul id="myTab" class="nav nav-pills nav-stacked">
           <li class="active"><a href="#"><div class="glyphicon glyphicon-home"></div><span class="col-xs-offset-1">Home</span></a></li>
-          <li><a href="#"><div class="glyphicon glyphicon-user"></div><span class="col-xs-offset-1">Self Evaluation</span></a></li>
-          <li><a  href="#"><div class="glyphicon glyphicon-certificate"></div><span class="col-xs-offset-1">Goal Settings</span></a>
+          <li><a href="#"><div class="glyphicon glyphicon-user"></div><span class="col-xs-offset-1">Self Evaluation</span><span class="label label-warning pull-right">16/24</span></a></li>
+          <li><a  href="#"><div class="glyphicon glyphicon-certificate"></div><span class="col-xs-offset-1">Goal Settings</span><span class="label label-success m-l-5 pull-right">NEW</span></a>
 		  </li>
           <li><a id="maian-menu" href="#"><div class="glyphicon glyphicon-stats"></div><span class="col-xs-offset-1">Report</span><b class="caret pull-right"></b></a>
 		  <ul class="submenu-item" id="submenu-item1">
