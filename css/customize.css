@@ -1,6 +1,5 @@
 /* customize.css Document */
 #sidebar {
-/*  padding-top:10px;	*/
   width: inherit;
   min-width: 200px;
   max-width: 220px;
@@ -11,8 +10,6 @@
   overflow-y:auto;
   overflow-x:hidden;
   font-size:.85em;
-/*  padding-left:8px;
-  padding-right:8px;*/
 }
 #sidebar .nav>li>a .caret{
 	margin-top:7px;
@@ -38,7 +35,6 @@
 .h-margin-bottom{
 	margin-bottom:4px!important;}
 .user-cont{
-	/*display: table-cell;*/
 	vertical-align: middle;
 	text-align: center;
 	background-color: #384048;
@@ -87,5 +83,5 @@ ul.submenu-item li a:hover{
 #sidebar {
 	display:none;}
 .navbar-nav{
-display:none;}
+	display:none;}
 }

@@ -60,7 +60,6 @@ body {
 .navbar-nav>li>.dropdown-menu {
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
-
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -91,7 +90,6 @@ h6{
   border-bottom-color: rgba(0, 0, 0, 0.2);
   content: '';
 }
-
 .dropdown-menu:after {
   position: absolute;
   top: -6px;
@@ -111,7 +109,6 @@ background-color: #f98700;
 @media (max-width: @screen-xs) {
     body{font-size: 10px;}
 }
-
 @media (max-width: @screen-sm) {
     body{font-size: 14px;}
 }
